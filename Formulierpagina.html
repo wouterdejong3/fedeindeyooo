@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="utf-8">
-    <title>Formulierpagina</title>
-    <link rel="stylesheet" type="text/css" href="stylesheetartikel.css">
-    <script rel="javascript" type="text/javascript" href="buttonjava.js"></script>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulierpagina</title>
+        <link rel="stylesheet" type="text/css" href="stylesheetartikel.css">
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
 
     <!-- header met logo & navigatie -->
     <header>
@@ -33,160 +33,159 @@
     </header>
 
     <!-- Main article - Contact formulier  -->
-    <main>
+         <main>
 
-        <h1>Aanmelden</h1>
-        <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
-        <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
-        <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.</p>
+            <h1>Aanmelden</h1>
+            <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+            <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.</p>
 
-        <form method="post" action="Formulierpagina.html">
+            <form method="post" action="Formulierpagina.html">
 
-            <fieldset>
-                <legend>Contactgegevens</legend>
-                <label>
-                    <span>Naam:</span>
-                    <input type="text" name="name" required>
-                    <em>vereist</em>
-                </label>
-                <label>
-                    <span>Bedrijf:</span>
-                    <input type="text" name="company" required>
-                    <em>vereist</em>
-                </label>
-                <label>
-                    <span>Adres:</span>
-                    <input type="text" name="address" required>
-                    <em>vereist</em>
-                </label>
-                <label>
-                    <span>Postcode:</span>
-                    <input type="text" name="postal" required>
-                    <em>vereist</em>
-                </label>
-                <label>
-                    <span>Telefoon:</span>
-                    <input type="tel" name="phone">
-                </label>
-                <label>
-                    <span>E-mailadres:</span>
-                    <input type="email" name="email" required>
-                    <em>vereist</em>
-                </label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Ik wil mij aanmelden:</legend>
-                <label>
-                    <input type="radio" name="submit-for" value="project">
-                    <span>Voor een project</span>
-                </label>
-                <label>
-                    <input type="radio" name="submit-for" value="stage">
-                    <span>Als stagebedrijf</span>
-                </label>
-            </fieldset>
-
-            <fieldset id="project">
-                <legend>Project</legend>
-                <label>
-                    <span>Titel:</span>
-                    <input type="text" name="project-title">
-                </label>
-                <label>
-                    <span>Opdrachtomschrijving:</span>
-                    <textarea name="project-description"></textarea>
-                </label>
-                <label>
-                    <span>Doelgroepomschrijving:</span>
-                    <textarea name="project-target-audience"></textarea>
-                </label>
-                <label>
-                    <span>Doelstelling/intentie van het project:</span>
-                    <textarea name="project-goal"></textarea>
-                </label>
-                <label>
-                    <span>Looptijd:</span>
-                    <input type="text" name="project-duration">
-                </label>
-                <label>
-                    <span>Deadline:</span>
-                    <input type="date" name="project-deadline">
-                </label>
                 <fieldset>
-                    <legend>Geschikt voor</legend>
-                    <label><input type="checkbox" name="project-eerstejaars"> Eerstejaars studenten</label>
-                    <label><input type="checkbox" name="project-tweedejaars"> Tweedejaars studenten</label>
-                    <label><input type="checkbox" name="project-derdejaars"> Derdejaars studenten</label>
-                    <label><input type="checkbox" name="project-afstudeer"> Afstudeer studenten</label>
-                    <label><input type="checkbox" name="project-onbekend"> Onbekend</label>
-                </fieldset>
-                <label>
-                    <span>Opmerking:</span>
-                    <textarea name="project-comments"></textarea>
-                </label>
-            </fieldset>
-
-            <fieldset id="stage">
-                <legend>Stage</legend>
-                <fieldset>
-                    <legend>Geschikt voor</legend>
-                    <label><input type="checkbox" name="stage-tweedejaars"> Tweedejaars studenten</label>
-                    <label><input type="checkbox" name="stage-afstudeerders"> Afstudeer studenten</label>
-                    <label><input type="checkbox" name="stage-onbekend"> Onbekend</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Hoe lang is de stage</legend>
-                    <label><input type="radio" name="stage-duration" value="10"> 10 weken</label>
-                    <label><input type="radio" name="stage-duration" value="20"> 20 weken</label>
-                </fieldset>
-                <label>
-                    <span>Begindatum:</span>
-                    <input type="date" name="stage-startdate">
-                </label>
-                <label>
-                    <span>Beschrijving stagewerkzaamheden</span>
-                    <textarea name="stage-description"></textarea>
-                </label>
-                <fieldset>
-                    <legend>Beschrijving stagebedrijf</legend>
+                    <legend>Contactgegevens</legend>
                     <label>
-                        <span>Bedrijfsnaam:</span>
-                        <input type="text" name="stage-company-name">
+                        <span>Naam:</span>
+                        <input type="text" name="name" required>
+                        <em>vereist</em>
+                    </label>
+                    <label>
+                        <span>Bedrijf:</span>
+                        <input type="text" name="company" required>
+                        <em>vereist</em>
                     </label>
                     <label>
                         <span>Adres:</span>
-                        <input type="text" name="stage-address">
+                        <input type="text" name="address" required>
+                        <em>vereist</em>
                     </label>
                     <label>
                         <span>Postcode:</span>
-                        <input type="text" name="stage-postal">
+                        <input type="text" name="postal" required>
+                        <em>vereist</em>
                     </label>
                     <label>
-                        <span>Plaats:</span>
-                        <input type="text" name="stage-place">
+                        <span>Telefoon:</span>
+                        <input type="tel" name="phone">
                     </label>
                     <label>
-                        <span>Sector:</span>
-                        <input type="text" name="stage-sector">
-                    </label>
-                    <label>
-                        <span>Core business:</span>
-                        <input type="text" name="stage-core-business">
+                        <span>E-mailadres:</span>
+                        <input type="email" name="email" required>
+                        <em>vereist</em>
                     </label>
                 </fieldset>
-                <label>
-                    <span>Opmerking:</span>
-                    <textarea name="stage-comments"></textarea>
-                </label>
-            </fieldset>
 
-            <input type="submit" value="Aanmelden">
+                <fieldset>
+                    <legend>Ik wil mij aanmelden:</legend>
+                    <label>
+                        <input type="radio" onclick="javascript:kiesknop();" name="submit-for" value="project" id="kiesproject">
+                        <span>Voor een project</span>
+                    </label>
+                    <label>
+                        <input type="radio" onclick="javascript:kiesknop();" name="submit-for" value="stage" id="kiesstage">
+                        <span>Als stagebedrijf</span>
+                    </label>
+                </fieldset>
 
-        </form>
+                <fieldset id="project">
+                    <legend>Project</legend>
+                    <label>
+                        <span>Titel:</span>
+                        <input type="text" name="project-title">
+                    </label>
+                    <label>
+                        <span>Opdrachtomschrijving:</span>
+                        <textarea name="project-description"></textarea>
+                    </label>
+                    <label>
+                        <span>Doelgroepomschrijving:</span>
+                        <textarea name="project-target-audience"></textarea>
+                    </label>
+                    <label>
+                        <span>Doelstelling/intentie van het project:</span>
+                        <textarea name="project-goal"></textarea>
+                    </label>
+                    <label>
+                        <span>Looptijd:</span>
+                        <input type="text" name="project-duration">
+                    </label>
+                    <label>
+                        <span>Deadline:</span>
+                        <input type="date" name="project-deadline">
+                    </label>
+                    <fieldset>
+                        <legend>Geschikt voor</legend>
+                        <label><input type="checkbox" name="project-eerstejaars"> Eerstejaars studenten</label>
+                        <label><input type="checkbox" name="project-tweedejaars"> Tweedejaars studenten</label>
+                        <label><input type="checkbox" name="project-derdejaars"> Derdejaars studenten</label>
+                        <label><input type="checkbox" name="project-afstudeer"> Afstudeer studenten</label>
+                        <label><input type="checkbox" name="project-onbekend"> Onbekend</label>
+                    </fieldset>
+                    <label>
+                        <span>Opmerking:</span>
+                        <textarea name="project-comments"></textarea>
+                    </label>
+                </fieldset>
 
-    </main>
+                <fieldset id="stage">
+                    <legend>Stage</legend>
+                    <fieldset>
+                        <legend>Geschikt voor</legend>
+                        <label><input type="checkbox" name="stage-tweedejaars"> Tweedejaars studenten</label>
+                        <label><input type="checkbox" name="stage-afstudeerders"> Afstudeer studenten</label>
+                        <label><input type="checkbox" name="stage-onbekend"> Onbekend</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Hoe lang is de stage</legend>
+                        <label><input type="radio" name="stage-duration" value="10"> 10 weken</label>
+                        <label><input type="radio" name="stage-duration" value="20"> 20 weken</label>
+                    </fieldset>
+                    <label>
+                        <span>Begindatum:</span>
+                        <input type="date" name="stage-startdate">
+                    </label>
+                    <label>
+                        <span>Beschrijving stagewerkzaamheden</span>
+                        <textarea name="stage-description"></textarea>
+                    </label>
+                    <fieldset>
+                        <legend>Beschrijving stagebedrijf</legend>
+                        <label>
+                            <span>Bedrijfsnaam:</span>
+                            <input type="text" name="stage-company-name">
+                        </label>
+                        <label>
+                            <span>Adres:</span>
+                            <input type="text" name="stage-address">
+                        </label>
+                        <label>
+                            <span>Postcode:</span>
+                            <input type="text" name="stage-postal">
+                        </label>
+                        <label>
+                            <span>Plaats:</span>
+                            <input type="text" name="stage-place">
+                        </label>
+                        <label>
+                            <span>Sector:</span>
+                            <input type="text" name="stage-sector">
+                        </label>
+                        <label>
+                            <span>Core business:</span>
+                            <input type="text" name="stage-core-business">
+                        </label>
+                    </fieldset>
+                    <label>
+                        <span>Opmerking:</span>
+                        <textarea name="stage-comments"></textarea>
+                    </label>
+                </fieldset>
 
+                <input type="submit" value="Aanmelden">
+
+            </form>
+
+        </main>
     <!-- 3 related projects - In the spotlight -->
     <section class="related">
 
